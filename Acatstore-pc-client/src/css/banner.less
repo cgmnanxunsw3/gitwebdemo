@@ -1,0 +1,92 @@
+// 主页焦点图样式
+.banner-con{
+    position: relative;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 960px;
+    height: 500px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+
+    // 左右按钮
+    .previous,.next{
+        position: absolute;
+        width: 40px;
+        height: 80px;
+        margin-top: 190px;
+        background-color: violet;
+        overflow: hidden;
+        z-index: 2;
+        display: none;
+    }
+    .previous{
+        left: 0;
+        border-radius: 0 12px 12px 0;
+    }
+    .next{
+        right: 0;
+        border-radius: 12px 0 0 12px;
+    }
+
+    ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 600%;
+        height: 500px; 
+        
+        li{
+            float: left;
+            margin: 0px;
+            width: 960px;
+            height: 500px;
+            position: relative;
+
+            a img{
+                width: 960px;
+                height: 500px;
+            }
+        }
+    }
+
+    ol{
+        position: absolute;
+        width: 600px;
+        height: 30px;
+        bottom: 0;
+        margin-bottom: 6px;
+        float: right;
+        margin-left: 40px;
+        padding: 0px 2px 0px 2px;
+        // z-index: 2;
+        // left: 50%;
+        // transform: translateX(-50%);
+        // background-color: aqua;
+
+        li{
+            position: relative;
+            width: 18px;
+            height: 16px;
+            border: 2px solid #484848;
+            border-radius: 14px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff74;
+        }
+
+        .current{
+            position: relative;
+            width: 18px;
+            height: 16px;
+            border: 2px solid #ffdf5ec6;
+            border-radius: 14px;
+            float: left;
+            margin-right: 20px;
+            background-color: #00000074;
+        }
+    }
+
+
+} 

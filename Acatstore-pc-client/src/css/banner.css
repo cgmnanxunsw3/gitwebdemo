@@ -1,0 +1,78 @@
+.banner-con {
+  position: relative;
+  float: left;
+  left: 0;
+  top: 0;
+  width: 960px;
+  height: 500px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.banner-con .previous,
+.banner-con .next {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  margin-top: 190px;
+  /* background-color: violet; */
+  overflow: hidden;
+  z-index: 2;
+  display: none;
+}
+.banner-con .previous {
+  left: 0;
+  border-radius: 0 12px 12px 0;
+}
+.banner-con .next {
+  right: 0;
+  border-radius: 12px 0 0 12px;
+}
+.banner-con ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600%;
+  height: 500px;
+}
+.banner-con ul li {
+  float: left;
+  margin: 0px;
+  width: 960px;
+  height: 500px;
+  position: relative;
+}
+.banner-con ul li a img {
+  width: 960px;
+  height: 500px;
+}
+.banner-con ol {
+  position: absolute;
+  width: 600px;
+  height: 30px;
+  bottom: 0;
+  margin-bottom: 6px;
+  float: right;
+  margin-left: 40px;
+  padding: 0px 2px 0px 2px;
+}
+.banner-con ol li {
+  position: relative;
+  width: 18px;
+  height: 16px;
+  border: 2px solid #484848;
+  border-radius: 14px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff74;
+}
+.banner-con ol .current {
+  position: relative;
+  width: 18px;
+  height: 16px;
+  border: 2px solid #ffdf5ec6;
+  border-radius: 14px;
+  float: left;
+  margin-right: 20px;
+  background-color: #00000074;
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!-- <html lang="en">  网页语言 -->
+<html lang="zh-CN"> 
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>阿猫百货-百货优品、便捷购物！</title><!-- 网页标题 -->
+    
+    <meta
+        name="description"
+        content="阿猫百货官网，为满足顾客需求、致力于民生生活更便捷而搭建的百货购物平台。"
+    /><!-- 网页描述 -->
+
+    <meta name="keywords" content="阿猫百货,食品,服装,图书,家电,百货,电商,购物" /><!-- 用于搜索 网页关键字 -->
+
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico"/><!-- ico 图标 -->
+
+    <!-- 外链样式       执行顺序 index.css > common.css > base.css     -->
+    <link rel="stylesheet" href="./css/base.css"><!-- 样式统一 表 -->
+    <link rel="stylesheet" href="./css/common.css"><!-- 网站通用样式 -->
+    <link rel="stylesheet" href="./css/index.css"><!-- 此页面  主页 样式 -->
+
+    <!-- less文件生成的css，EasyLess全局-->
+    <link rel="stylesheet" href="./css/banner.css"/>
+
+    <!-- 此网页的js动画 -->
+    <script type="text/javascript" src="./js/animate.js"></script>
+    <script type="text/javascript" src="./js/nav.js"></script>
+    <script type="text/javascript" src="./js/banner.js"></script>
+    <script type="text/javascript" src="./js/sidebar.js"></script>
+
+</head>
+<body>
+ 
+    <!--1-1、顶部信息栏    网站通用快捷栏 -->
+    <div class="acat-shortcut">
+        <div class="wrapper">
+            <ul class="wrapper-left">
+                <li><a href="javascript:;">请先登录</a></li>
+                <li><a href="javascript:;">免费注册</a></li>
+                <li><a href="javascript:;"><span></span>手机版</a></li>
+            </ul>
+
+            <ul class="wrapper-right">
+                <li><a href="javascript:;" style="border-left: 1px solid rgb(161, 158, 158);">购物车</a></li>
+                <li><a href="javascript:;">会员中心</a></li>
+                <li><a href="javascript:;" style="border: none;">在线客服</a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <!--1-2、侧边快捷功能栏    网站主页 -->
+    <div class="acat-sidebar">
+        <div class="sidebar-con">
+            <div class="sideArea">
+                <a href="javascript:;"><div class="sa01">阿猫百货</div></a>
+                <a href="javascript:;"><div class="rec">今日推荐</div></a>
+                <a href="javascript:;"><div class="gues">猜你喜欢</div></a>
+                <a href="javascript:;"><div class="goTop">返回顶部</div></a>
+                <a href="javascript:;"><div class="sa03">帮助</div></a>
+             </div>
+        </div>
+        
+    </div>
+    
+    <!--2-1、粘性导航栏首页和搜索功能 网站通用导航栏  -->
+    <div class="acat-nav">
+        <div class="website-nav">
+            <!-- 网站logo -->
+            <div class="logodiv">
+                <img alt="阿猫百货" src="./images/acatlogo.png" />
+                <span class="log-1">阿猫百货</span>
+                <span class="log-2">acatweb.com</span>
+            </div>
+
+
+            <!-- 搜索区域     -->
+            <div class="search-con">
+                <div class="search">
+                    <span class="sea-other">商品名</span>
+                    <input class="sea-inp" type="text" placeholder="搜索商品" />  
+                    <a href="javascript:;" class="sea-btn"></a>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">首页</a></li>
+                    <li><a href="javascript:;">水果时蔬</a></li>
+                    <li><a href="javascript:;">特产美食</a></li>
+                    <li><a href="javascript:;">服装饰品</a></li> 
+                    <li><a href="javascript:;">化妆护肤</a></li>
+                    <li><a href="javascript:;">图书读物</a></li>               
+                    <li><a href="javascript:;">家具电器</a></li>
+                    <li><a href="javascript:;">洗护用品</a></li>
+                    <li><a href="javascript:;">五金工具</a></li>
+                </ul> 
+            </div>
+        </div>   
+    </div>
+    <!--2-2、隐藏显示的粘性导航栏首页和搜索功能 网站通用导航栏  -->
+    <div class="acat-nav-another">
+        <div class="website-nav-another">
+            <!-- 网站logo -->
+            <div class="logodiv-another">
+                <img alt="阿猫百货" src="./images/acatlogo.png" />
+            </div>
+
+
+            <!-- 搜索区域     -->
+            <div class="search-con-another">
+                <div class="search-another">
+                    <span class="sea-other">商品名</span>
+                    <input class="sea-inp" type="text" placeholder="搜索商品" />  
+                    <a href="javascript:;" class="sea-btn"></a>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+
+
+
+
+
+
+
+    <!--3、主页焦点图 banner  -->
+    <div class="index-top">
+        <div class="top-con">
+            <!-- 侧边导航 -->
+            <div class="left-nav">
+                <ul>
+                    <li><span>水果时蔬</span>
+                        <a href="javascript:;">水果直供</a>
+                        <a href="javascript:;">新鲜蔬菜</a></li>                            
+                    <li><span>特产美食</span>
+                        <a href="javascript:;">特色美食</a>
+                        <a href="javascript:;">城市特产</a></li>
+                    <li><span>服装饰品</span>
+                        <a href="javascript:;">时装鞋帽</a>
+                        <a href="javascript:;">箱包饰品</a></li>
+                    <li><span>化妆护肤</span>
+                        <a href="javascript:;">时尚单品</a>
+                        <a href="javascript:;">护肤养颜</a></li>
+                    <li><span>图书读物</span>
+                        <a href="javascript:;">图书音像</a>
+                        <a href="javascript:;">文具摆件</a></li>
+                    <li><span>家具电器</span>
+                        <a href="javascript:;">建筑装修</a>
+                        <a href="javascript:;">生活电器</a></li>
+                    <li><span>洗护用品</span>
+                        <a href="javascript:;">厨具收纳</a>
+                        <a href="javascript:;">清洁消毒</a></li>
+                    <li><span>五金工具</span>
+                        <a href="javascript:;">日用工具</a>
+                        <a href="javascript:;">文具办公</a></li>
+                    <li><span>更多百货</span>
+                        <a href="javascript:;">房产 /</a>
+                        <a href="javascript:;">珠宝 /</a>
+                        <a href="javascript:;">鲜花</a>
+                    </li>    
+                    <li><span>        </span>    
+                        <a href="javascript:;">汽车 /</a>
+                        <a href="javascript:;">进口 /</a>
+                        <a href="javascript:;">茶酒</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 焦点图  广告横幅 -->
+            <div class="banner-con">
+                <!-- 1：左右按钮 -->
+                <a href="javascript:;" class="previous">
+                    <img alt="" src="../src/images/prev.png" style="width: 40px;height: 80px;" />
+                </a>
+                <a href="javascript:;" class="next">
+                    <img alt="" src="../src/images/next.png" style="width: 40px;height: 80px;" />
+                </a>
+
+                <!-- 2：中间图片 -->
+                <ul>
+                    <li>
+                        <a href="javascript:;"><img src="./uploads/banner01.jpg" alt="横幅1"/></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./uploads/banner02.jpg" alt="横幅2"/></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./uploads/banner03.jpg" alt="横幅3"/></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./uploads/banner04.jpg" alt="横幅4"/></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./uploads/banner05.jpg" alt="横幅5"/></a>
+                    </li>
+                </ul>
+
+                <!-- 3:底部装换按钮  通过js动态生成 -->
+                <ol class="bannerbtn">
+
+                    <!-- <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li> -->
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+
+
+        <!--4、今日推荐  -->
+        <div class="recommend">
+            <div class="recommend-con">
+                <div class="rec-title">
+                    <span class="re-1">今日推荐</span>
+                    <span class="re-2">每日优品</span>
+                </div>
+
+                <div class="rec-left">
+                    <img alt="推荐01" src="./uploads/recommend01.jpg" />
+                </div>
+
+                <div class="rec-right">
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend02.jpg" /></div>
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend03.jpg" /></div>
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend04.jpg" /></div>
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend05.jpg" /></div>
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend06.jpg" /></div>
+                    <div class="rec-itme"><img alt="推荐02" src="./uploads/recommend07.jpg" /></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--5、猜你喜欢  -->
+        <div class="guess-youlike">
+            <div class="show-con">
+                <div class="gue-title">
+                    <span class="gu-1">猜你喜欢</span>
+                    <span class="gu-2">私人订制</span>
+                </div>
+
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike01.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike02.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike03.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike04.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike05.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike06.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike07.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike08.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike09.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike10.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike11.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike12.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike13.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike14.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+                <div class="list-item">
+                    <a href="javascript:;">
+                        <div class="list-item-con">
+                            <img alt="商品图" src="./uploads/guesslike15.jpg"/>
+                        </div>
+                        <p>商品描述商品描述商品描述商品描述商品描述商品描述</p>
+                    </a>
+                    <p class="list-item-price">
+                        <em>价格￥：</em>
+                        00
+                    </p>
+                </div>
+             </div>
+        </div>
+        
+        
+        <!--6、底部版权声明  -->
+
+
+
+</body>
+</html>

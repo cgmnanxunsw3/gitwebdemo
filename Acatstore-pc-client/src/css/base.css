@@ -1,0 +1,68 @@
+/* 清除页面标签默认的 margin 和 padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+/* 清除超链接默认样式 */
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 超链接伪类 */
+a:hover{
+    color: rgb(255, 186, 90);
+    font-weight: 700;
+}
+
+
+/* 清除列表默认样式  */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 网站   默认字体大小 默认最小宽与顶部快捷栏一致 默认背景颜色 */
+body{
+    min-width: 1240px;
+    background-color: #dfdfdd;
+    font-size: 16px;
+    color: #333;
+}
+
+/* 去除默认的倾斜效果 */
+em,
+i {
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

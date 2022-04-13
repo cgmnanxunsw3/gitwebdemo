@@ -1,0 +1,343 @@
+
+/* 1 ----网站通用快捷栏栏 */
+    /* 快捷栏div样式 */
+.acat-shortcut {
+    width: 100%;
+    height: 32px;
+    border-bottom: #d4d3d3;
+    background-color: rgb(248, 237, 223);
+}
+    /* 顶部div包装栏 */
+.wrapper {
+    width: 1240px;
+    /* height: 32px; */
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+    /* ul文字左对齐 */
+.wrapper-left {
+    float: left;
+    line-height: 40px;
+}
+    /* ul文字内容右对齐 */
+.wrapper-right {
+    float: right;
+    line-height: 32px;
+}
+    /* li 文字在一行显示 */
+.acat-shortcut .wrapper li {
+    float: left;
+    line-height: 32px;
+}
+    /* 超链接 样式 */
+.acat-shortcut .wrapper a {
+    padding: 0 16px;
+    border-right: 1px solid rgb(161, 158, 158);
+    font-size: 14px;
+    color: #8b8484;
+
+}
+.acat-shortcut .wrapper a:hover {
+    color: rgb(255, 186, 90);
+}
+
+
+
+
+
+ /* 2-1 ----网站通用粘性导航栏 */
+.acat-nav{
+    width: 100%;
+    height: 120px;
+
+}
+.website-nav{
+    width: 1240px;
+    height: 100px;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.logodiv{
+    float: left;
+    width: 240px;
+    height: 100px;
+    /* background-color: rgb(101, 232, 105); */
+    margin-right: 14px;
+}
+.logodiv img{
+    height: 60px;
+    width: 80px;
+    position: relative;
+    float: left;
+    margin: 10px 0px 0px 30px;
+}
+.log-1{
+    height: 40px;
+    position: relative;
+    float: left;
+    margin: 30px 0px 0px 8px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F26D3D;
+}
+.log-2{
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 80px;
+    color:#04BFBF;
+}
+
+.search-con{
+    float: right;
+    width: 970px;
+    height: 80px;
+    margin-right: 10px;
+    /* background-color: rgb(38, 255, 0); */
+}
+
+.search{
+    width: 700px;
+    height: 40px; 
+    margin-top: 20px;
+    margin-left: 90px;
+    border: 3px solid #EF4C6A;
+    border-radius: 20px;
+}
+.sea-other{
+    width: 40px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 174, 0);
+    padding-top: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+.sea-inp{
+    width: 560px;
+    height: 20px;
+    font-size: 16px;
+    float: left;
+    padding: 10px 0px 10px 2px;
+    border: none;
+    outline: none;
+}
+.sea-btn{
+    width: 98px;
+    height: 40px;
+    float: left;
+    left: 0px;
+    top: 0px;
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-size: 60px 100%;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+}
+.search-con ul{
+    width: 700px;
+    margin-left: 114px;
+    margin-top: 4px;
+    font-size: 10px;
+}
+.search-con ul li{
+    float: left;
+    padding-left: 20px;
+}
+/* 导航区域 */
+.navitems{
+    float: right;
+    width: 980px;
+    height: 30px;
+    /* margin-top: 10px; */
+    /* margin-right: 0px; */
+}
+.items{
+    font-size: 18px;
+    background-color: aqua;
+}
+.items li{
+    float: left;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+ /* 2-2 ----网站通用粘性导航栏 */
+ .acat-nav-another{
+  width: 100%;
+  height: 82px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 10;
+  top: 0; 
+  display: none;
+}
+.website-nav-another{
+  width: 1240px;
+  height: 54px;
+  margin-top: 10px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 8px;
+
+}
+.logodiv-another{
+  float: left;
+  width: 80px;
+  height: 50px;
+  position: relative;
+  float: left;
+  margin-left: 210px;
+  /* background-color: rgb(101, 232, 105); */
+  /* margin-right: 14px; */
+}
+.logodiv-another img{
+  height: 40px;
+  width: 54px;
+  position: relative;
+  float: left;
+  /* margin: 10px 0px 0px 30px;*/
+}
+.search-con-another{
+  float: right;
+  width: 800px;
+  height: 50px;
+  margin-right: 10px;
+  position: relative;
+  float: left;
+  /* background-color: rgb(38, 255, 0); */
+}
+
+.search-another{
+  width: 700px;
+  height: 40px;
+  /* margin-top: 20px; */
+  /* margin-left: 90px; */
+  border: 3px solid #EF4C6A;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* 3 ----网站通用粘性侧边功能栏 */
+ .acat-sidebar {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 400px; */
+    top: 400px;
+    /* z-index: 12; */
+    position: absolute;
+  }
+  .acat-sidebar .sidebar-con {
+    position: relative;
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .acat-sidebar .sidebar-con .sideArea {
+    position: relative;
+    width: 68px;
+    margin-left: 1330px;
+    right: 0;
+    background-color: #7b4545;
+    border-radius: 10px;
+  }
+  .acat-sidebar .sidebar-con .sideArea a {
+    width: 68px;
+    height: 68px;
+  }
+  .acat-sidebar .sidebar-con .sideArea a:hover {
+    color: #fff1f1;
+  }
+  .acat-sidebar .sidebar-con .sideArea .sa01 {
+    position: relative;
+    width: 40px;
+    height: 54px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ff7b23;
+    color: #ffffff;
+  }
+  .acat-sidebar .sidebar-con .sideArea .rec {
+    position: relative;
+    width: 40px;
+    height: 54px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff;
+  }
+  /* .acat-sidebar .sidebar-con .sideArea .rec:hover {
+    background-color: #ff9900;
+    color: #ffffff; 
+  }*/
+  .acat-sidebar .sidebar-con .sideArea .gues {
+    position: relative;
+    width: 40px;
+    height: 54px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff;
+  }
+  /* .acat-sidebar .sidebar-con .sideArea .gues:hover {
+    background-color: #ff9900;
+    color: #ffffff;
+  } */
+  .acat-sidebar .sidebar-con .sideArea .goTop {
+    position: relative;
+    width: 40px;
+    height: 54px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff;
+    display: none;
+  }
+  .acat-sidebar .sidebar-con .sideArea .goTop:hover {
+    background-color: #ff9900;
+    color: #ffffff;
+  }
+  .acat-sidebar .sidebar-con .sideArea .sa03 {
+    position: relative;
+    width: 40px;
+    height: 28px;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #faead2;
+    color: black;
+  }
+
